@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+Thai:wght@100..900&display=swap');
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Noto Sans Thai", sans-serif;
+}
+
+
+
+.form{
+  background-color: #71db34;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 0 20px;
+  background: #f4f7f8;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.center{
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+.tt{
+  margin-top: 30px;
+}
+
+a {
+  text-decoration:none;
+}
+td {
+	text-align: center;
+}
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+  border-radius: 7px;
+  align-items: center;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #a8db34;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #71db34;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+#home {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+
+.number {
+  background-color: #3498db;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 480px) {
+
+  form {
+    max-width: 480px;
+  }
+
+
+}
+
+/*  */
+
+.container {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #ffffffb1;
+
+  border-radius: 10px;
+  border-top: 20px double  rgb(240, 192, 2);
+  border-bottom: 20px double  rgb(255, 204, 0);
+  /* border-left: 20px double  rgb(255, 204, 0);
+  border-right: 20px double  rgb(255, 204, 0); */
+
+}
+.container1 {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #ffffffb1;
+
+  border-radius: 10px;
+ 
+
+}
+
+.box-con {
+  margin: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  height: 400px;
+  border-radius: 10px;
+  
+}
+
+.train a, .bus a {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  border-radius: 20px;
+}
+.train  ,.bus  {
+  box-shadow: rgba(0, 0, 0, 0.661) 0px 5px 15px;
+ 
+}
+
+.train a span, .bus a span {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  color: rgb(252, 252, 252);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  font-size: 35px;
+  
+}
+
+.train a:hover span, .bus a:hover span {
+  background-color: rgba(255, 204, 0, 0.527);
+}
+
+.train img, .bus img {
+  max-width: 450px;
+  height: auto;
+  border-radius: 4px;
+  transition: 0.5s;
+ 
+}
+.train img:hover, .bus img:hover {
+  max-width: 500px;
+  height: auto;
+  border-radius: 4px;
+  opacity: 0.3;
+  transform: scale(1);
+  
+}
